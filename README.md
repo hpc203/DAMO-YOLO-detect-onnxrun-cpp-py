@@ -1,5 +1,5 @@
 # DAMO-YOLO-detect-onnxrun-cpp-py
-使用ONNXRuntime部署DAMO-YOLO目标检测，包含C++和Python两个版本的程序
+使用ONNXRuntime部署DAMO-YOLO目标检测，包含C++和Python两个版本的程序.
 起初，我想使用opencv做部署的，但是opencv的dnn模块读取onnx文件出错，
 无赖只能使用onnxruntime做部署了。本套程序一共提供了27个onnx模型，
 onnx文件需要从百度云盘下载，
